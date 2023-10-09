@@ -1,75 +1,74 @@
 [
-    {
-      "id": 1,
-      "cover": "../src/assets/python.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "title": "Introduction to OOP Python",
-      "credit": 5,
-      "price": 1999
-    },
-    {
-      "id": 2,
-      "cover": "../src/assets/mysql.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "title": "Database (MySQL)",
-      "credit": 3,
-      "price": 2999
-    },
-    {
-      "id": 3,
-      "cover": "../src/assets/cprogramming.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "title": "Introduction to C Programming",
-      "credit": 2,
-      "price": 2499
-    },
-    {
-      "id": 4,
-      "cover": "../src/assets/algorithm.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "title": "Introduction to Algorithms",
-      "credit": 4,
-      "price": 3499
-    },
-    {
-      "id": 5,
-      "cover": "../src/assets/c++.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "title": "Introduction to C++ for DSA",
-      "credit": 1,
-      "price": 2299
-    },
-    {
-      "id": 6,
-      "cover": "../src/assets/softwareeng.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "title": "Software Engineering",
-      "credit": 5,
-      "price": 3999
-    },
-    {
-      "id": 7,
-      "cover": "../src/assets/problemsolving.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "title": "Problem-Solving Part",
-      "credit": 2,
-      "price": 1799
-    },
-    {
-      "id": 8,
-      "cover": "../src/assets/dataStructure.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "title": "Basic Data Structures",
-      "credit": 4,
-      "price": 2799
-    },
-    {
-      "id": 9,
-      "cover": "../src/assets/cloudcomputing.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "title": "AWS, Cloud Computing",
-      "credit": 3,
-      "price": 3199
-    }
-  ]
-  
+  {
+    "id": 1,
+    "cover": "../public/python.png",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "title": "Introduction to OOP Python",
+    "credit": 5,
+    "price": 1999
+  },
+  {
+    "id": 2,
+    "cover": "../public/mysql.png",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "title": "Database (MySQL)",
+    "credit": 1,
+    "price": 2999
+  },
+  {
+    "id": 3,
+    "cover": "../public/cprogramming.png",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "title": "Introduction to C Programming",
+    "credit": 2,
+    "price": 2499
+  },
+  {
+    "id": 4,
+    "cover": "../public/algorithm.png",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "title": "Introduction to Algorithms",
+    "credit": 10,
+    "price": 3499
+  },
+  {
+    "id": 5,
+    "cover": "../public/c++.png",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "title": "Introduction to C++ for DSA",
+    "credit": 1,
+    "price": 2299
+  },
+  {
+    "id": 1,
+    "cover": "../public/softwareeng.png",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "title": "Software Engineering",
+    "credit": 5,
+    "price": 3999
+  },
+  {
+    "id": 7,
+    "cover": "../public/problemsolving.png",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "title": "Problem-Solving Part",
+    "credit": 2,
+    "price": 1799
+  },
+  {
+    "id": 8,
+    "cover": "../public/dataStructure.png",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "title": "Basic Data Structures",
+    "credit": 4,
+    "price": 2799
+  },
+  {
+    "id": 9,
+    "cover": "../public/cloudcomputing.png",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "title": "AWS, Cloud Computing",
+    "credit": 3,
+    "price": 3199
+  }
+]

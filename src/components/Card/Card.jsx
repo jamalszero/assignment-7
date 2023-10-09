@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const Card = ({ course, handleCourseSelection }) => {
-    const {id, title, cover, description, credit, price } = course;
+    const { title, cover, description, credit, price } = course;
     return (
         <div className="card card-compact bg-base-100 p-3 rounded-lg">
             <figure><img src={cover} className=' w-full ' /></figure>
@@ -10,19 +10,21 @@ const Card = ({ course, handleCourseSelection }) => {
                 <p className='text-slate-500 text-base'>{description}</p>
 
                 <div className='flex justify-between '>
-                <p className='flex justify-start gap-1 font-medium text-slate-600'>
-                <img src="../../../public/dollar-sign.svg" />
-                <span>
-                   Price : {price}
-                </span>
-                </p>
-                
-                <p className='flex justify-end gap-1 font-medium text-slate-600'>
-                <img src="../../../public/book.svg" alt="" />
-                <span>
-                Credit : {credit}
-                </span>
-                </p>
+
+                    <p className='flex justify-start items-center gap-1 font-medium text-slate-600'>
+                        <img src="../../../public/dollar-sign.svg" />
+                        <span>
+                            Price : {price}
+                        </span>
+                    </p>
+
+                    <p className='flex justify-end items-center gap-1 font-medium text-slate-600'>
+                        <img src="../../../public/book.svg" alt="" />
+                        <span>
+                            Credit : {credit}
+                        </span>
+                    </p>
+
                 </div>
 
                 <button onClick={() => handleCourseSelection(course)} className=' bg-[#2F80ED] p-2 rounded-md text-white font-semibold '>Select</button>
@@ -33,6 +35,7 @@ const Card = ({ course, handleCourseSelection }) => {
 
 Card.propTypes = {
     course: PropTypes.object,
+    handleCourseSelection: PropTypes.func,
 
 };
 
